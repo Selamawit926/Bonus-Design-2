@@ -25,6 +25,32 @@ header{
     color: aquamarine;
 }
 
-.intro{
+/* .intro{
     text-align: center;
+} */
+
+.preamble{
+    background-color: rgb(248, 130, 51);
+    color: rgb(255, 255, 255);
+    width: 600px;
+    height: 600px;
+    border-radius: 30%;
+    
+}
+
+.preamble h3{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-top: 100px;
+    text-align: center;
+}
+
+.preamble p{
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.explanation{
+    float: right;
 }
