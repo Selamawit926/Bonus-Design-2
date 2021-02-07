@@ -21,7 +21,7 @@ header{
 }
 
 .summary p:hover{
-    font-size: 17px;
+    /* font-size: 17px; */
     color: aquamarine;
 }
 
@@ -162,3 +162,29 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
+.design-selection{
+    position: absolute;
+    top: 40px;
+    height: 550px;
+    width: 500px;
+    border-radius:40%;
+    background-color: rgb(102, 201, 63);
+}
+
+.design-selection h3{
+    font-size: 35px;
+    color: white;
+    padding-left: 110px;
+    padding-top: 40px;
+}
+
+.design-selection ul li{
+    padding-left: 80px;
+    padding-top: 15px;
+    font-size: 20px;
+
+}
