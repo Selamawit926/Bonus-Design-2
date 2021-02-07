@@ -172,6 +172,8 @@ li{
     height: 550px;
     width: 500px;
     border-radius:40%;
+    border: black 5px solid;
+    border-right: none;
     background-color: rgb(102, 201, 63);
 }
 
@@ -187,4 +189,53 @@ li{
     padding-top: 15px;
     font-size: 20px;
 
+}
+
+.design-archives{
+    background-color: yellow;
+    position: absolute;
+    height: 550px;
+    border-radius: 40%;
+    width:300px;
+    top: 40px;
+    left: 1200px;
+    border: black 5px solid;
+    border-left: none;
+}
+
+.design-archives h3{
+    font-size: 35px;
+    color: white;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.design-archives ul li{
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.zen-resources{
+    background-color:yellow;
+    position: absolute;
+    border-radius: 40%;
+    height:100px;
+    width: 300px;
+    top: 240px;
+    left: 1200px;
+    
+}
+
+.zen-resources h3{
+    font-size: 35px;
+    color: white;
+    padding-left: 60px;
+    /* padding-top: 10px; */
+}
+
+.zen-resources ul li{
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 20px;
 }
