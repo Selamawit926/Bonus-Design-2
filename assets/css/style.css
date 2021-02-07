@@ -1,29 +1,33 @@
 h1{
     margin-top: 80px;
-    font-size: 50px;
+    font-size: 120px;
+    font-weight: 400;
 }
 
 header{
     text-align: center;
 }
 
+h2{
+    font-size: 45px;
+    font-style: italic;
+}
+
 .summary{
-    /* text-align: center; */
-    width: 300px;
-    margin-left: 650px;
+    width: 600px;
+    margin-left: 500px;
+    margin-top: 50px;
     background-color: rgb(69, 134, 219);
 }
 
 .summary p{
-    /* padding-left: 630px;
-    padding-right: 630px; */
-    color: aquamarine;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.summary p:hover{
-    /* font-size: 17px; */
-    color: aquamarine;
-}
+ 
 
 /* .intro{
     text-align: center;
@@ -36,6 +40,7 @@ header{
     height: 600px;
     border-radius: 30%;
     margin-left: 500px;
+    margin-top: 160px;
     
 }
 
@@ -121,12 +126,13 @@ header{
 }
 
 .requirements{
-    width: 600px;
+    width: 1500px;
     height: 900px;
-    margin-left: 480px;
+    margin-left: 40px;
     border-radius: 30%;
     color: rgb(255, 255, 255);
     background-color: rgb(94, 243, 94);
+    
 }
 
 .requirements h3{
@@ -137,10 +143,16 @@ header{
 }
 
 .requirements p{
-    font-size: 18px;
-    padding-right: 50px;
-    padding-left: 50px;
+    font-size: 22px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 30px;
 }
+
+.requirements p:nth-child(6){
+    text-align: center;
+}
+
 footer{
     width: 800px;
     height: 60px;
@@ -170,7 +182,7 @@ li{
     position: absolute;
     top: 40px;
     height: 550px;
-    width: 500px;
+    width: 350px;
     border-radius:40%;
     border: black 5px solid;
     border-right: none;
@@ -180,13 +192,13 @@ li{
 .design-selection h3{
     font-size: 35px;
     color: white;
-    padding-left: 110px;
+    padding-left: 60px;
     padding-top: 40px;
 }
 
 .design-selection ul li{
-    padding-left: 80px;
-    padding-top: 15px;
+    padding-left: 20px;
+    padding-top: 13px;
     font-size: 20px;
 
 }
@@ -198,7 +210,7 @@ li{
     border-radius: 40%;
     width:300px;
     top: 40px;
-    left: 1200px;
+    left: 1270px;
     border: black 5px solid;
     border-left: none;
 }
@@ -223,7 +235,7 @@ li{
     height:100px;
     width: 300px;
     top: 240px;
-    left: 1200px;
+    left: 1270px;
     
 }
 
@@ -239,3 +251,11 @@ li{
     padding-top: 5px;
     font-size: 20px;
 }
+
+#zen-supporting{
+    background:url(../images/css.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
