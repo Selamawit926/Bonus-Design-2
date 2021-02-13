@@ -52,6 +52,7 @@ h2{
     border-radius: 30%;
     margin-left: 500px;
     margin-top: 160px;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
@@ -60,7 +61,7 @@ h2{
     color: rgb(255, 255, 255);
     padding-top: 80px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 .preamble p{
@@ -102,17 +103,19 @@ h2{
     border-radius: 30%;
     color: rgb(255, 255, 255);
     background-color: rgb(71, 71, 245);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .explanation h3{
-    font-size: 40px;
+    font-size: 43px;
     color: rgb(255, 255, 255);
-    padding-top: 100px;
+    padding-top: 30px;
     text-align: center;
+    font-weight: 900;
 }
 
 .explanation p{
-    font-size: 18px;
+    font-size: 22px;
     padding-right: 50px;
     padding-left: 50px;
 }
@@ -153,14 +156,15 @@ h2{
 }
 
 .participation h3{
-    font-size: 40px;
+    font-size: 43px;
     color: rgb(255, 255, 255);
-    padding-top: 60px;
+    padding-top: 20px;
     text-align: center;
+    font-weight: 900;
 }
 
 .participation p{
-    font-size: 18px;
+    font-size: 19px;
     padding-right: 50px;
     padding-left: 50px;
 }
@@ -207,15 +211,16 @@ h2{
 }
 
 .benefits h3{
-    font-size: 40px;
+    font-size: 43px;
     color: rgb(255, 255, 255);
-    padding-top: 60px;
+    padding-top: 160px;
     text-align: center;
+    font-weight: 900;
 }
 
 
 .benefits p{
-    font-size: 18px;
+    font-size: 22px;
     padding-right: 50px;
     padding-left: 50px;
 }
@@ -237,26 +242,63 @@ h2{
     border-radius: 30%;
     color: rgb(255, 255, 255);
     background: rgb(94, 243, 94);
-    
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
 .requirements h3{
-    font-size: 40px;
+    font-size: 43px;
     color: rgb(255, 255, 255);
     padding-top: 60px;
     text-align: center;
+    font-weight: 900;
 }
 
 .requirements p{
     font-size: 22px;
-    padding-right: 180px;
+    /* padding-right: 180px;
     padding-left: 180px;
-    padding-top: 30px;
+    padding-top: 30px; */
 }
 
 .requirements p:nth-child(6){
     text-align: center;
+    clear:left;
+    /* background-color: deeppink; */
+    width: 450px;
+    margin-left: 550px;
+    font-size: 28px;
+}
+
+.requirements:hover{
+    background-color: rgb(31, 31, 31);
+}
+
+
+.requirements p:nth-child(2),.requirements p:nth-child(3){
+    /* background-color: darkviolet; */
+    padding-left: 3em;
+    padding-right: 4em;
+    width: 500px;
+    margin-left: 140px;
+    float: left;
+}
+
+
+.requirements p:nth-child(4),.requirements p:nth-child(5){
+    /* background-color: deeppink; */
+    padding-right: 10em;
+    /* width: 300px; */
+    /* margin-left: 400px;
+    margin-top:80px; */
+}
+
+.requirements p:nth-child(4){
+    padding-top: 25px;
+}
+
+.requirements p:nth-child(5){
+    margin-top: 69px;
 }
 
 .requirements p:nth-child(2) abbr:first-child:hover::after{
@@ -304,7 +346,7 @@ footer{
 footer a{
     font-size: 30px;
     padding-left: 30px;
-    color: black;
+    color: rgb(255, 255, 255);
     
 }
 
