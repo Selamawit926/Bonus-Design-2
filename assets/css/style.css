@@ -45,7 +45,7 @@ h2{
 } */
 
 .preamble{
-    background-color: rgb(248, 130, 51);
+    background-color: rgb(165, 165, 165);
     color: rgb(255, 255, 255);
     width: 600px;
     height: 600px;
@@ -102,7 +102,7 @@ h2{
     height: 600px;
     border-radius: 30%;
     color: rgb(255, 255, 255);
-    background-color: rgb(71, 71, 245);
+    background-color: rgb(165, 165, 165);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -152,7 +152,7 @@ h2{
     height: 600px;
     border-radius: 30%;
     color: rgb(255, 255, 255);
-    background-color: rgb(94, 243, 94);
+    background-color: rgb(165, 165, 165);
 }
 
 .participation h3{
@@ -207,7 +207,7 @@ h2{
     margin-left: 480px;
     border-radius: 30%;
     color: rgb(255, 255, 255);
-    background-color: rgb(94, 243, 94);
+    background-color: rgb(165, 165, 165);
 }
 
 .benefits h3{
@@ -241,7 +241,7 @@ h2{
     margin-left: 40px;
     border-radius: 30%;
     color: rgb(255, 255, 255);
-    background: rgb(94, 243, 94);
+    background: rgb(165, 165, 165);
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -411,7 +411,7 @@ li{
 
 .design-archives ul li{
     padding-left: 40px;
-    padding-top: 5px;
+    padding-top: 25px;
     font-size: 20px;
 }
 
@@ -435,7 +435,7 @@ li{
 
 .zen-resources ul li{
     padding-left: 40px;
-    padding-top: 5px;
+    padding-top: 25px;
     font-size: 20px;
 }
 
@@ -446,3 +446,261 @@ li{
     background-attachment: fixed;
 }
 
+
+@media screen and (max-width:500px){
+    .summary{
+        width: 500px;
+        margin-left: 0px;
+        margin-top: 50px;
+        /* background-color: rgb(69, 134, 219); */
+    }
+    
+    .summary p{
+        font-size: 20px;
+        font-style: italic;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .preamble{
+        background-color: rgb(165, 165, 165);
+        color: rgb(255, 255, 255);
+        width: 450px;
+        height: 600px;
+        border-radius: 30%;
+        margin-left: 10px;
+        margin-top: 160px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    
+    .preamble h3{
+        font-size: 43px;
+        color: rgb(255, 255, 255);
+        padding-top: 80px;
+        text-align: center;
+        font-weight: 900;
+    }
+    
+    .preamble p{
+        font-size: 19px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+     .explanation{
+        position: static;
+        float: none;
+        width: 450px;
+        height: 700px;
+        margin-top: 50px;
+        border-radius: 30%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(165, 165, 165);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .explanation h3{
+        font-size: 37px;
+        color: rgb(255, 255, 255);
+        padding-top: 53px;
+        text-align: center;
+        font-weight: 900;
+    }
+    
+    .explanation p{
+        font-size: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+    } 
+    
+    .participation{
+       position: static;
+       float: none;
+        width: 450px;
+        height: 750px;
+        margin-top: 100px;
+        border-radius: 30%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(165, 165, 165);
+    }
+    
+    .participation h3{
+        font-size: 43px;
+        color: rgb(255, 255, 255);
+        padding-top: 50px;
+        text-align: center;
+        font-weight: 900;
+    }
+    
+    .participation p{
+        font-size: 19px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    
+    .benefits{
+        position: static;
+        clear: none;
+        width: 450px;
+        height: 500px;
+        margin-left: 0px;
+        margin-top: 80px;
+        border-radius: 30%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(165, 165, 165);
+    }
+    
+    .benefits h3{
+        font-size: 43px;
+        color: rgb(255, 255, 255);
+        padding-top: 80px;
+        text-align: center;
+        font-weight: 900;
+    }
+    
+    
+    .benefits p{
+        font-size: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .requirements{
+        width: 430px;
+        height: 1500px;
+        margin-left: 20px;
+        margin-top: 80px;
+        border-radius: 30%;
+        color: rgb(255, 255, 255);
+        background: rgb(165, 165, 165);
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    
+    .requirements h3{
+        font-size: 43px;
+        color: rgb(255, 255, 255);
+        padding-top: 60px;
+        text-align: center;
+        font-weight: 900;
+    }
+    
+    .requirements p{
+        font-size: 19px;
+        /* padding-right: 180px;
+        padding-left: 180px;
+        padding-top: 30px; */
+    }
+    
+    .requirements p:nth-child(6){
+        text-align: center;
+       position: static;
+        background-color: deeppink;
+        width: 350px;
+        margin-left: 45px;
+        margin-top: 100px;
+        /* padding-left: 120px;
+        padding-right: 120px; */
+        float: none;
+        clear: none;
+        font-size: 23px;
+    }
+    
+    .requirements:hover{
+        background-color: rgb(31, 31, 31);
+    }
+    
+    
+    .requirements p:nth-child(2),.requirements p:nth-child(3){
+        background-color: darkviolet;
+        padding-left: 1em;
+        padding-right: 0em;
+        width: 350px;
+        margin-left: 30px;
+        position: static;
+        float: none;
+    }
+    
+    
+    .requirements p:nth-child(4),.requirements p:nth-child(5){
+        background-color: deeppink;
+        padding-right: 10em;
+        width: 350px;
+        padding-right:1em;
+        margin-left: 32px;
+        /* margin-top:80px; */
+    }
+    
+    .requirements p:nth-child(4){
+        padding-top: 25px;
+    }
+    
+    .requirements p:nth-child(5){
+        margin-top: 40px;
+    }
+
+
+    footer{
+        width: 450px;
+        height: 60px;
+        border-radius: 50%;
+        padding-top: 30px;
+        text-align: center;
+        margin-left: 00px;
+        margin-top: 100px;
+        background-color: aquamarine;
+        
+    }
+    
+    footer a{
+        font-size: 27px;
+        padding-left: 30px;
+        color: rgb(255, 255, 255);
+        
+    }
+
+    .design-selection{
+  
+        position: static;
+        top: 0px;
+        height: 650px;
+        width: 350px;
+        border-radius:40%;
+        border: rgb(255, 255, 255) 5px solid;
+        border-right: none;
+        margin-left: 50px;
+        margin-top: 50px;
+        /* background-color: rgb(102, 201, 63); */
+    }
+    
+    
+    
+    .design-archives{
+        /* background-color: yellow; */
+        position: static;
+        height: 720px;
+        border-radius: 40%;
+        width:300px;
+        top: 0px;
+        left: 0px;
+        border: rgb(255, 255, 255) 5px solid;
+        border-left: none;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .zen-resources{
+        /* background-color:yellow; */
+        position: absolute;
+        border-radius: 40%;
+        height:100px;
+        width: 300px;
+        top: 410em;
+        left: 50px;
+
+        
+    }
+    
+
+}
