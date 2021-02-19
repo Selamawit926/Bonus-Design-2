@@ -45,7 +45,7 @@ h2{
 } */
 
 .preamble{
-    background-color: rgb(165, 165, 165,0.2);
+    background-color: rgb(165, 165, 165,0.1);
     color: rgb(255, 255, 255);
     width: 600px;
     height: 600px;
@@ -102,7 +102,7 @@ h2{
     height: 600px;
     border-radius: 30%;
     color: rgb(255, 255, 255);
-    background-color: rgb(165, 165, 165,0.2);
+    background-color: rgb(165, 165, 165,0.1);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -152,7 +152,7 @@ h2{
     height: 600px;
     border-radius: 30%;
     color: rgb(255, 255, 255);
-    background-color: rgb(165, 165, 165,0.2);
+    background-color: rgb(165, 165, 165,0.1);
 }
 
 .participation h3{
@@ -207,7 +207,7 @@ h2{
     margin-left: 480px;
     border-radius: 30%;
     color: rgb(255, 255, 255);
-    background-color: rgb(165, 165, 165,0.2);
+    background-color: rgb(165, 165, 165,0.1);
 }
 
 .benefits h3{
@@ -241,7 +241,7 @@ h2{
     margin-left: 40px;
     border-radius: 30%;
     color: rgb(255, 255, 255);
-    background: rgb(165, 165, 165,0.2);
+    background: rgb(165, 165, 165,0.1);
     font-family: 'Times New Roman', Times, serif;
     
 }
